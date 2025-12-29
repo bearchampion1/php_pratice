@@ -1,0 +1,27 @@
+.title {
+  text-align: center;
+  color: #ffffff;
+  position: fixed;
+  top: 80px;
+  width: 100%;
+}
+.nav-item login, .nav-item register {
+  float: right;
+}
+.title-img {
+  height: 200px;
+}
+ ul{
+ display: none;
+ position: relative;
+ right: inherit;
+ }
+ label{
+ display: block;
+ }
+ #burger:checked + ul{
+ display:block;
+ }
+ ul li{
+ list-style-type: none; 
+}
